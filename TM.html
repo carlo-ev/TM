@@ -1,9 +1,20 @@
 <head>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <title>TM</title>
 </head>
 
 <body>
-  {{> hello}}
+  <div class="container-fluid" >
+    <div class="row" >
+      <div class="col-md-8 col-md-offset-2">
+        <div class="jumbotron center-block" >
+          <h1>Online Turing Machine Simulator</h1>
+          <input class="btn btn-notice" type="button" value="Start" />
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 <template name="hello">
