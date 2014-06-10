@@ -1,13 +1,8 @@
 if (Meteor.isClient) {
-  Template.hello.greeting = function () {
-    return "Welcome to TM.";
-  };
 
-  Template.hello.events({
-    'click input': function () {
-      // template data, if any, is available in 'this'
-      if (typeof console !== 'undefined')
-        console.log("You pressed the button");
+  Template.intro.events({
+    'click .btn.btn-default': function () {
+      console.log(UI.getElement(".jumbotron"));
     }
   });
 }
