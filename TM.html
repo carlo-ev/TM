@@ -8,12 +8,16 @@
   <div class="container-fluid" >
     <div class="row" >
       <div class="col-md-8 col-md-offset-2">
-        <div class="jumbotron center-block" >
-          <h1>Turing Machine Simulator</h1>
-          <p>A Simple Online Turing Machine Simulator</p>
-          <input class="btn btn-notice" type="button" value="Start" />
-        </div>
+        {{> intro}}
       </div>
     </div>
   </div>
 </body>
+
+<template name="intro">
+    <div class="jumbotron center-block" >
+      <h1>Turing Machine Simulator</h1>
+      <p>A Simple Online Turing Machine Simulator</p>
+      <input class="btn btn-notice" type="button" value="Start" />
+    </div>
+</template>

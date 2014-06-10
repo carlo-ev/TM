@@ -1,16 +1,8 @@
 if (Meteor.isClient) {
-  Template.hello.greeting = function () {
-    return "Welcome to TM.";
-  };
-
-  Template.hello.events({
-    'click input': function () {
-      // template data, if any, is available in 'this'
-      if (typeof console !== 'undefined')
-        console.log("You pressed the button");
-    }
-  });
+   Template.intro();
 }
+file:///home/carlo/Documents/TM/TM.js
+file:///home/carlo/Documents/TM/TM.html
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
