@@ -1,4 +1,4 @@
 TM -> Turing Machine
 ==
 
-One Page application running on meteor that simulates an Turing Machine.
+One Page application running on express that simulates an Turing Machine.
